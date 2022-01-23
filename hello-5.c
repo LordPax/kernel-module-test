@@ -35,9 +35,8 @@ static int __init hello_5_init(void)
     pr_info("mystring is a string: %s\n", mystring);
 
     int i;
-    for (i = 0; i < ARRAY_SIZE(myintarray); i++) {
+    for (i = 0; i < ARRAY_SIZE(myintarray); i++)
         pr_info("myintarray[%d] = %d\n", i, myintarray[i]);
-    }
 
     pr_info("got %d arguments for myintarray\n", arr_argc);
     return 0;
