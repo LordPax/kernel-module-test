@@ -3,7 +3,7 @@
 
 int init_module(void)
 {
-    pr_info("hello world 1\n");    
+    pr_info("hello world 1\n");
     return 0;
 }
 
